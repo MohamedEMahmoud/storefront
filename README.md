@@ -42,11 +42,11 @@
 
 <h2> Migration Up </h2>
 
-      DATABASE_URL=postgres://postgres:admin@localhost:5432/store  npm run migrate up
+      DATABASE_URL=postgres://postgres:admin@localhost:5432/storefront;  npm run migrate up
 
 <h2> Migration Down </h2>
 
-      DATABASE_URL=postgres://postgres:admin@localhost:5432/store  npm run migrate down
+      DATABASE_URL=postgres://postgres:admin@localhost:5432/storefront;  npm run migrate down
 
 # API endpoint For User Service
 
